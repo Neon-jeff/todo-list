@@ -130,7 +130,7 @@ button:hover{
     background-color: #d66909;
 }
 .text-content>p{margin-top: 0px;}
- @media only screen and (max-width: 400px){
+ @media only screen and (max-width: 450px){
     .intro{
         flex-direction: column;
     }
