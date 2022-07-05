@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins:wght@100&family=Quicksand&family=Rubik+Moonrocks&family=Saira+Semi+Condensed:wght@200&family=Trispace:wght@100&display=swap');
+body{
+margin: 0;
+background-image: url('bg-hero-desktop.svg');
+background-size: cover;
+background-position: center;
+background-color: rgb(15, 177, 189);
+}
+header{
+    height: 80vh;
+}
+.logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+.intro{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    padding-top:0px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.text{
+    width: 40%;
+    margin-top: 20px;
+}
+.text>h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+}
+.text>button{
+    border: none;
+    background-color: #994b07;
+    color: whitesmoke;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px; 
+    font-size: 20px;   
+}
+button:hover{
+    background-color: #d66909;
+}
+.area{
+    margin: 50px auto;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+.heading{
+    background-color:#994b07;
+    text-align: center;
+    color: whitesmoke;
+}
+.form > input{
+    border: 2px #F28F3B;
+    border-style: hidden hidden solid hidden;
+    width: 600px;
+    height: 50px;
+}
+.form{
+    margin-left: 50px;
+}
+.form > input :active{
+    border-style: none none solid none;
+    border-color: #F28F3B;
+
+}
+.add-btn{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #994b07;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+}
+.add-btn:hover{
+    background-color: #d66909;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    color: #994b07;
+}
+.list{
+    display: flex;
+    justify-content: space-between; 
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.delete-btn{
+    width: 80px;
+    height: 30px;
+    background-color:#994b07;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 15px;  
+}
+.list > div{
+    width: 20%;
+    height: 100%;
+   
+}
+.list > .text-content{
+    width: 60%;
+    justify-self: center;
+    font-size: 16px;
+    padding-top: 0px;
+    text-align: center;
+}
+.delete-btn:hover{
+    background-color: #d66909;
+}
+.text-content>p{margin-top: 0px;}
+ @media only screen and (max-width: 400px){
+    .intro{
+        flex-direction: column;
+    }
+    .text{
+        order: 2;
+        width: 90%;
+    }
+    .intro>div>img{
+        order:1;
+    }
+    .area{
+        width: 90%;
+        margin-top: 150px;
+    }
+    .form>input{
+        width: 90%;
+    }
+    .form{
+        margin-left: 10px;
+    }
+ }
